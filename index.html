@@ -3,10 +3,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Wedding RSVP</title>
-    <link rel="icon" type="image/ico" href="ring.ico">
+    <link rel="icon" type="image/ico" href="ring2.ico">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--
+    <button id="nav" class="nav" >RSVP</button>
+    <button id="nav2" class="nav2">Registry</button>
+    -->
+    <div class="navigation">
+      <input  type="button" id="topbuttonsRSVP" class="topbuttons" onclick="window.location.href='index.html'" value="RSVP">
+      <input type="button" id="topbuttonsRegistry" class="topbuttons" onclick="window.location.href='Registry.html'" value="Registry">
+      <input type="button" id="topbuttonsengagementphotos" class="topbuttons" onclick="window.location.href='EngagementPhotos.html'" value="Engagement Photos">
+   </div>
     <div class="form">
       <div class ="info">
       <h1>RSVP</h1>
@@ -20,7 +29,7 @@
         <br>
         <h2>Ceremony & Reception</h2>
         <p>Moonshine Manner</p>
-        <p>1234 Test Rd, Town, State 12345</p>
+        <p>1234 Name Rd, City, State 12345</p>
              <p class= "line">________________________________________</p>
       <label for="invitecode">Wedding Invite Code.</label>
       <input type="text" id="invitecode" placeholder="Enter Code From Wedding Invite" maxlength="3" size="10" required>
