@@ -1,0 +1,129 @@
+header {
+    background-color: #4b2f45;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+body {
+    background-image: url(chairs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+  }
+/* Navigation Bar */
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4b2f45;
+    margin-top: -50px;
+
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  ul.topnav li a.RSVP {
+      border: white 2px solid;
+      border-radius: 20px;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-right: none;
+  }
+
+  ul.topnav li a.Registry {
+    border: white 2px solid;
+    border-right: none;
+    border-left: none;
+}
+
+  ul.topnav li a.Photos {
+    border: white 2px solid;
+    border-radius: 20px;
+    border-top-left-radius: 00px;
+    border-bottom-left-radius: 0px;
+    border-left: none;
+}
+
+  ul.topnav li a:hover {
+      background-color: #b3b3b3
+    }
+  
+  @media screen and (max-width: 425px) {
+    ul.topnav {
+        margin-top: -40px;
+    }
+    ul.topnav li {
+        float: none;    
+    }
+    ul.topnav li a{
+        font-size: 15px;
+    }
+    ul.topnav li a.RSVP {
+        border: none;
+        
+    }
+    ul.topnav li a.Registry {
+        border: none;
+    }
+    ul.topnav li a.Photos {
+        border: none;
+    }
+  }
+
+/* Code for first navigation bar. 
+  .navigation .topbuttons {
+    margin: 0;
+    position: relative;
+    top: 20%;
+    left: 34%;
+  }
+
+  .topbuttons {
+    color: #fff;
+    background-color:  #4b2f45;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 600;
+    width: 200px;
+    margin: 0px auto 0px auto; 
+    float:left;
+    height: 75px;
+  }
+
+  .topbuttons:hover {
+    background-color:  #4b2f45;
+    transition: .3s;
+    border: 4px solid #fff;
+  }
+  .topbuttonRSVP {
+
+  }
+
+  #topbuttonsrsvp {
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  #topbuttonsengagementphotos {
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }*/
+  h1 {
+      font-family: 'Raleway', sans-serif;
+  }
