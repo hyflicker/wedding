@@ -201,7 +201,7 @@ header nav ul li a.active {
         top: 0;
         left: 0;
         padding: 0 20px;
-        background: rgb(182, 44, 44);
+        background: #4b2f45;
         width: 133%;
         box-sizing: border-box;
     }
