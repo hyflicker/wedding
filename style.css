@@ -1,13 +1,10 @@
 body{
-    margin: 0;
-    padding: 0;
     font-family: 'Raleway';
     background: url(chairs.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 header {
@@ -108,7 +105,7 @@ header nav ul li a.active {
 .form {
     zoom: 1.3;
     height: 520px;
-    width: 400px;
+    width: 45%;
     background-color: #fff;
     margin: auto;
     margin-top: 60px;
@@ -167,7 +164,7 @@ header nav ul li a.active {
     font-family: 'Raleway';
     font-size: 18px;
     font-weight: 600;
-    width: 200px;
+    width: 50%;
     margin: 0px auto 0px auto; 
     float:left;
     height: 75px;
@@ -193,7 +190,7 @@ header nav ul li a.active {
     outline: 0;
   }
 
-  @media (max-width: 660px) {
+  /*@media (max-width: 660px) {
    
     
     header {
@@ -244,9 +241,8 @@ header nav ul li a.active {
 
 
  .form {
-        zoom: 90%;
         height: 520px;
-        width: 400px;
+        width: 100%;
         background-color: #fff;
         margin: auto;
         margin-top: 200px;
@@ -255,7 +251,7 @@ header nav ul li a.active {
         padding: 0px 0px;
         box-shadow: 2px 2px 4px rgb(0, 0, 0, .25);
     }
-  }
+  }*/
 
   /* ----------- iPhone 4 and 4S ----------- */
 
