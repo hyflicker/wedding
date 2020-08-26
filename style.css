@@ -10,23 +10,23 @@ header {
     top: 0;
     left: 0;
     background: #4b2f45;
-    padding: 0px 0px;
+    padding: 0px 20px;
     width: 100%;
     box-sizing: border-box;
     position: absolute;
 }
 
 .section-one {
-    margin: 0 auto;
+    zoom: 1.2;
+    margin: 0px auto;
     background: #fff;
-    width: 90%;
     padding: 0 0;
     margin-top: 60px;
     text-align: center;
     border-radius: 10px;
     color: #666;
-    padding: 0px 0px;
     box-shadow: 2px 2px 4px rgb(0, 0, 0, .25);
+    width: 40%;
 }
 header .logo {
     line-height: 50px;
@@ -81,17 +81,22 @@ header nav ul li a.active {
   h1, h2, p {
     text-align: center;
     padding: 0px;
-    margin: 5px 5px;
+    margin: 15px 5px;
   }
 
   h1 {
       font-family: 'Raleway', sans-serif;
-      font-size: 20px;
+      font-size: 35px;
   }
 
   h2 {
     font-family: 'Great Vibes',cursive;
     font-weight: 100;
+    font-size: 30px;
+  }
+
+  p {
+      font-size: 25px;
   }
 
   label {
@@ -108,6 +113,15 @@ header nav ul li a.active {
     outline: 0;
   }
 
+  input {
+      padding: 5px;
+      margin: 10px 0px;
+  }
+
+  .buttons-forms {
+      margin-top: 10px;
+  }
+
   button {
     color: #fff;
     background-color:  #4b2f45;
@@ -115,7 +129,7 @@ header nav ul li a.active {
     font-size: 15px;
     font-weight: 600;
     width: 50%;
-    margin: 0px auto 0px auto; 
+    margin: 10px auto 0px auto; 
     float:left;
     height: 50px;
   }
@@ -195,6 +209,10 @@ and (orientation: portrait) {
         transition: .3s;
         border: 4px solid #fff;
       }
+
+    .section-one {
+        width: 90%;
+    }
 }
 
 /* Landscape */
@@ -469,7 +487,7 @@ and (orientation: landscape) {
 
 /* Portrait and Landscape */
 @media only screen 
-and (min-device-width: 414px) 
+and (min-device-width: 410px) 
 and (max-device-width: 736px) 
 and (-webkit-min-device-pixel-ratio: 3) { 
 
@@ -550,7 +568,7 @@ and (orientation: portrait) {
 
 /* Landscape */
 @media only screen 
-and (min-device-width: 414px) 
+and (min-device-width: 411px) 
 and (max-device-width: 736px) 
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: landscape) { 
